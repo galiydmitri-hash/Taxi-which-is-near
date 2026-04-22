@@ -98,6 +98,9 @@ body {
     .navbar_com1, .navbar_com2, .navbar_com3 {
         font-size: 18px;
     }
+    .navbar_com1 {
+    margin-left: 10px;
+    }
 }
 
 .navbar_com1:hover, .navbar_com2:hover, .navbar_com3:hover{
