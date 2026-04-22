@@ -127,7 +127,8 @@ body {
 
 @media (max-width: 992px) {
     .mainupdown{
-        width: 400px;
+        width: 350px;
+        padding: 10px;
     }
 }
 
