@@ -121,7 +121,7 @@ body {
 
 @media (max-width: 992px) {
     .mainupdown{
-        transform: scale(0.85);
+        width: 400px;
     }
 }
 .updown{
