@@ -96,7 +96,7 @@ body {
 
 @media (max-width: 992px) {
     .navbar_com1, .navbar_com2, .navbar_com3 {
-        font-size: 18px;
+        font-size: 17px;
     }
     .navbar_com1 {
     margin-left: 10px;
@@ -131,7 +131,7 @@ body {
 @media (max-width: 992px) {
     .mainupdown{
         width: 350px;
-        padding: 10px;
+        padding: 12px;
     }
 }
 
@@ -311,12 +311,28 @@ body {
 }
 
 .refus:hover{
-    background-color: rgb(255, 79, 79)
+    background-color: rgb(255, 79, 79);
+}
+
+@media (max-width: 992px) {
+    .refus:hover{
+    background-color: transparent;
+    }
 }
 
 .refus:hover .refus_line1,
 .refus:hover .refus_line2 {
     background-color: rgb(254, 247, 247);
+}
+
+@media (max-width: 992px) {
+    .refus:hover .refus_line1,
+    .refus:hover .refus_line2 {
+    background-color: rgb(255, 79, 79);
+    }
+    .refus_line1, .refus_line2{
+        background-color: rgb(255, 255, 255);
+    }
 }
 
 .crop-container {
