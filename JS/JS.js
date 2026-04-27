@@ -1,5 +1,5 @@
 
-const cards = document.querySelectorAll('.con1');
+const cards = document.querySelectorAll('.name');
 
 cards.forEach(card => {
     card.addEventListener('click', () => {

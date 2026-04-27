@@ -182,7 +182,7 @@ body {
         justify-items: center; 
     }
 
-    .con1 {
+    .name {
         background: rgba(48, 48, 48, 0.7);
         height: 400px;
         width: 300px;
@@ -196,11 +196,11 @@ body {
         transition: 0.25s;
     }
 
-.con1:hover{
+.name:hover{
     box-shadow: 0 7px 15px gray;
 }
 
-.con1 {
+.name {
     position: relative; 
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -394,5 +394,32 @@ body {
 @media (max-width: 992px) {
     .btnhome{
         transform: scale(0.85);
+    }
+}
+
+.search{
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(139, 255, 139);
+    transition: 0.25s;
+}
+
+.search:hover, .search:focus{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .search{
+        width: 250px;
+        height: 45px;
     }
 }
